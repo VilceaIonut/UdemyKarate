@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: conduitApp.ConduitTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.346 s <<< FAILURE! - in conduitApp.ConduitTest
+testAll  Time elapsed: 0.345 s  <<< ERROR!
+java.lang.ExceptionInInitializerError
+Caused by: java.lang.NullPointerException: Cannot invoke "javax.script.ScriptEngine.createBindings()" because "com.intuit.karate.ScriptBindings.NASHORN" is null
+
